@@ -20,3 +20,21 @@ print(my_other_list[-1])
 print(my_other_list[-3])
 #print(my_other_list[4]) IndexError
 #print(my_other_list[-4]) IndexError
+
+age,height,name,surname = my_other_list
+print(name)
+
+my_other_list.append("caridad")
+my_other_list.insert(1,"azul")
+my_other_list.remove("azul")
+print(my_other_list)
+
+
+print(my_list)
+my_pop_element = my_list.pop(2)
+print(my_pop_element)
+print(my_list)
+
+
+my_list = "hola python"
+print(my_list)
