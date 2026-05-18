@@ -1,5 +1,11 @@
 #LISTAS/LISTS#\
-
+"""
+Características
+Se pueden modificar.
+Permiten elementos repetidos.
+Tienen índices.
+Muy usadas en programación.
+"""
 my_list = list()
 my_other_list = []
 
@@ -26,7 +32,7 @@ print(name)
 
 my_other_list.append("caridad")
 my_other_list.insert(1,"azul")
-my_other_list.remove("azul")
+my_other_list.remove("azul") #elimina primero que  ha encontrtado
 print(my_other_list)
 
 
@@ -35,6 +41,20 @@ my_pop_element = my_list.pop(2)
 print(my_pop_element)
 print(my_list)
 
+del my_list[2]
+print(my_list)
+
+my_new_list = my_list.copy()#crea una coopia de la lista y la ñade a la nueva variable
+
+my_list.clear()#elimina todo loq ue se encuntra dentro de la lista
+print(my_list)#muetra la lista vacia
+print(my_new_list)
+
+my_new_list.reverse()
+print(my_new_list)
+
+my_new_list.sort()
+print(my_new_list)
 
 my_list = "hola python"
 print(my_list)
